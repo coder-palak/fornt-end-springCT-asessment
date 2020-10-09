@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spring-ass"
+    }
+  },
+  "defaultProject": "spring-ass",
+  "cli": {
+    "analytics": "20c2ca2d-a5cb-44d1-b4f9-19832e37de98"
+  }
 }

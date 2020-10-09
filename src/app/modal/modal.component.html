@@ -1,0 +1,13 @@
+<div class="container">
+
+    <mat-form-field appearance="fill" class="w">
+        <mat-label>Select Company</mat-label>
+        <mat-select [(value)]="selectValue">
+            <mat-option *ngFor="let company of companyList" [value]="company.id">{{company.name}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <br>
+    <div class="div" align="end">
+        <button class="btn btn-primary" (click)="dialogClose()">Save</button>
+    </div>
+</div>
